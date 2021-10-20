@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Exemplo de Menu JS </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/menu.js" defer></script>
+    </head>
+
+    <body>
+        <div class="menu" id="my_menu">
+            <a href=""> Análise </a>
+            <a href=""> Novidades </a>
+            <a href=""> Mais lidas </a>
+        
+
+            <div class="dropdown">
+
+                <button class="btt_drop">
+                    Consoles
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div class="content">
+                    <a href=""> Playstation </a>
+                    <a href=""> Xbox </a>
+                    <a href=""> Nintento </a>
+                </div>
+            </div>
+
+            <a href=""> Especiais </a>
+
+            <a href="#" onclick="show_menu()" class="btt_menu">
+                <i class="material-icons">
+                    menu
+                </i>
+            </a>
+
+        </div>
+    </body>
+
+</html>
